@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-    Simplexe simplex = new Simplexe("data.txt");
+    Simplex simplex = new Simplex("data.txt");
     simplex.display_simplex();
     simplex.fill_dictionnary();
     simplex.display_dictionnary();
